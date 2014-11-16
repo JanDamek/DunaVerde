@@ -1,0 +1,34 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Gallery
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          gallery
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        is_active:
+          label: Aktivní
+        title:
+          label: Titulek
+        description:
+          label: Popis
+      list:
+        display: [=title, is_active, description ]
+        title: Galerie
+      filter:  ~
+      form:
+        display: [title, description, path, image, ~showGalleryImages ]
+      edit:
+        title: Editace galerie
+      new:
+        title: Nová galerie
+
+

@@ -1,0 +1,312 @@
+/*
+Theme Name: Name
+Theme URI: http://webovky.cz/
+Description: Vzhled pro
+Version: 1.0
+Author: Mcihal Kořínek
+Author URI: http://korinekmichal.cz/
+Tags: web, css, xhtml, javascript
+*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+  font-family: arial;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #212121;
+  background: #0080c2 url(/images/bg.jpg) center repeat-y;
+}
+
+a {
+  color:#777777;
+  text-decoration: underline;
+  -webkit-transition-delay:initial;
+  -webkit-transition-duration:0.25s;
+  -webkit-transition-property:color;
+  -webkit-transition-timing-function:ease-in-out
+}
+
+a:hover {
+  color:#ff0042;
+  text-decoration: underline;
+  -webkit-transition-delay:initial;
+  -webkit-transition-duration:0.25s;
+  -webkit-transition-property:color;
+  -webkit-transition-timing-function:ease-in-out;
+}
+
+.cistic {
+  clear: both;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  margin: 0px auto;
+  padding: 70px 0px 0px 0px;
+  width: 269px;
+  text-align: center;
+}
+h1 span {
+  display: none;
+}
+
+h2 {
+  font-size: 30px;
+  color: #fff;
+  margin: 15px 0px 15px 0px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #0075b9;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  top: -6px;
+}
+
+.dunanad {
+  background: url(/images/duna_verde.png) no-repeat;
+  width: 269px;
+  height: 50px;
+  display: block;  
+}
+
+
+
+
+
+
+
+/*   PAGE   */
+#page {
+  margin: 0px auto;
+  width: 990px;
+  padding: 0px 0px 0px 0px;
+}
+
+#page em {
+  font-style: italic;
+}
+
+#page strong {
+  font-weight: bold;
+}
+
+
+/*   HEADER   */
+#header {
+  width: 100%;
+  background: url(/images/header_bg.png) center top no-repeat;
+  height: 201px;
+}
+
+
+/*   CONTENT   */
+#content {
+  width: 990px;
+}
+
+#obsah {
+  color: #fff;
+  text-align: justify;
+}
+
+#leva {
+  width: 465px;
+  margin: 30px 60px 0px 0px;
+  float: left;
+}
+#leva p {
+  margin: 0px 0px 30px 0px;
+}
+
+.obrazek {
+  float: left;
+  border: 0px;
+  margin: 1px 20px 10px 0px;
+}
+
+.region {
+  background: url(/images/mapa.png) left top no-repeat;
+  width: 265px;
+  height: 179px;
+  margin: 0px 0px 20px 0px;
+  padding: 50px 0px 0px 200px;
+}
+
+h4 {
+ font-size: 20px;
+ color: #fff;
+}
+
+#prava {
+  width: 465px;
+  float: left;
+  margin: 30px 0px 0px 0px;
+}
+
+.zajezd {
+  width: 465px;
+  float: left;
+  height: 180px;
+  margin: 0px 0px 0px 0px;
+}
+
+.ubytovani {
+  width: 990px;
+  float: left;
+  margin: 30px 0px 30px 0px;
+}
+
+.cena {
+  float: left;
+  padding: 5px 15px 0px 110px; 
+}
+
+.zajezd_obsah {
+  background: #fff;
+  width: 445px;
+  height: 105px;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+}
+.zajezd_obsah img {
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+.zajezd_obsah p {
+  float: left;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: #000;
+  text-align: justify;
+  font-size: 12px;
+  width: 270px;
+}
+
+.butvice {
+  background: url(/images/but.png) no-repeat;
+    background-position: 0px -30px;
+  width: 135px;
+  height: 30px;
+  display: block;
+  float: left; 
+}
+
+.butvice span {
+  display: none;
+}
+
+.butvice:hover {
+  background-position: 0px 0px;
+}
+
+.banners {
+  width: 990px;
+  float: left;
+  margin: 20px 0px 30px 0px;
+}
+.banner {
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+
+.seo {
+  float: left;
+  padding: 10px 30px 10px 30px;
+  background: url(/images/seo_bg.png) no-repeat;
+  width: 551px;
+  text-align: center;
+  height: 55px;
+  margin: 0px 0px 0px 190px;
+}
+
+
+
+
+
+
+
+
+/*   FOOTER   */
+#footer {
+  width: 990px;
+  background: url(/images/footer_bg.png) no-repeat;
+  height: 14px;
+  float: left;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0px 40px 0px;
+  padding: 30px 0px 0px 0px; 
+}
+
+#links {
+  width: 990px;
+  height: 14px;
+  float: left;
+  color: #fff;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+  padding: 15px 0px 0px 0px; 
+}
+
+#links a, #footer a{
+    color: white;
+    text-decoration: none;
+}

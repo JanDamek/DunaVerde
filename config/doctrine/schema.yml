@@ -1,0 +1,124 @@
+Setting:
+  actAs: [Timestampable]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    SiteName: string(50)    
+    email: string(50)
+    tel: string(50)
+    mobil: string(50)
+    pracovni_doba: clob
+    ulice: string(100)
+    mesto: string(100)
+    web_adr: string(55)
+    ga_code: string(100)
+    google_overeni: string(255)
+    
+Odkazy:    
+  actAs:
+    Timestampable:
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    poradi: integer
+    name: {type: string(50), unique: true}
+    link: string(255)
+    publikovat: {type: boolean, default: false}
+    
+Stranka:
+  actAs:
+    Timestampable:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: false
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true , default: 'homepage'}
+    link_h1: string(255)
+    title_seo: string(100)
+    keywords: string(255)
+    description: string(255)
+    title_str: string(255)
+    top_img: string(255)
+    top_img_title: string(150)
+    top_img_alt: string(50)
+    popis_levy: clob
+    popis_pravy: clob
+    region: string(255)
+    vzdalenost: integer
+    img1: string(255)
+    img1_title: string(150)
+    img1_alt: string(50)
+    img2: string(255)
+    img2_title: string(150)
+    img2_alt: string(50)
+    img3: string(255)
+    img3_title: string(150)
+    img3_alt: string(50)
+    img4: string(255)
+    img4_title: string(150)
+    img4_alt: string(50)
+    promo1_title: string(255)
+    promo1_img: string(255)
+    promo1_img_title: string(150)
+    promo1_img_alt: string(50)
+    promo1_gallery_id: integer
+    promo1_star: integer(1)
+    promo1_popis: clob
+    promo1_cena: string(255)
+    promo1_link: string(255)
+    promo2_title: string(255)
+    promo2_img: string(255)
+    promo2_img_title: string(150)
+    promo2_img_alt: string(50)
+    promo2_gallery_id: integer
+    promo2_star: integer(1)
+    promo2_popis: clob
+    promo2_cena: string(255)
+    promo2_link: string(255)
+    promo3_title: string(255)
+    promo3_img: string(255)
+    promo3_img_title: string(150)
+    promo3_img_alt: string(50)
+    promo3_gallery_id: integer(255)
+    promo3_star: integer(1)
+    promo3_popis: clob
+    promo3_cena: string(255)
+    promo3_link: string(255)
+    promo4_title: string(255)
+    promo4_img: string(255)
+    promo4_img_title: string(150)
+    promo4_img_alt: string(50)
+    promo4_gallery_id: integer
+    promo4_star: integer(1)
+    promo4_popis: clob
+    promo4_cena: string(255)
+    promo4_link: string(255)
+    baner1_img: string(255)
+    baner1_img_title: string(150)
+    baner1_img_alt: string(50)
+    baner1_link: string(255)
+    baner2_img: string(255)
+    baner2_img_title: string(150)
+    baner2_img_alt: string(50)
+    baner2_link: string(255)
+    baner3_img: string(255)
+    baner3_img_title: string(150)
+    baner3_img_alt: string(50)
+    baner3_link: string(255)
+  relations:
+    Gallery1:
+      class: Gallery
+      local: promo1_gallery_id
+      foreign: id  
+    Gallery2:
+      class: Gallery
+      local: promo2_gallery_id
+      foreign: id  
+    Gallery3:
+      class: Gallery
+      local: promo3_gallery_id
+      foreign: id  
+    Gallery4:
+      class: Gallery
+      local: promo4_gallery_id
+      foreign: id        

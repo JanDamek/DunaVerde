@@ -1,0 +1,33 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           stranka
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          stranka
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    
+        ## grouped
+        display: 
+          "Základní data": [name,link_h1,title_str,top_img,top_img_title,top_img_alt,popis_levy,popis_pravy,region,vzdalenost]
+          "Základní obrázky": [img1,img1_title,img1_alt,promo1_gallery_id,img2,img2_title,img2_alt,promo2_gallery_id,img3,img3_title,img3_alt,promo3_gallery_id,img4,img4_title,img4_alt,promo4_gallery_id]
+          "Promo 1": [promo1_title,promo1_img,promo1_img_title,promo1_img_alt,promo1_star,promo1_popis,promo1_cena,promo1_link]
+          "Promo 2": [promo2_title,promo2_img,promo2_img_title,promo2_img_alt,promo2_star,promo2_popis,promo2_cena,promo2_link]
+          "Promo 3": [promo3_title,promo3_img,promo3_img_title,promo3_img_alt,promo3_star,promo3_popis,promo3_cena,promo3_link]
+          "Promo 4": [promo4_title,promo4_img,promo4_img_title,promo4_img_alt,promo4_star,promo4_popis,promo4_cena,promo4_link]
+          "Baner 1": [baner1_img, baner1_img_title, baner1_img_alt, baner1_link]
+          "Baner 2": [baner2_img, baner2_img_title, baner2_img_alt, baner2_link]
+          "Baner 3": [baner3_img, baner3_img_title, baner3_img_alt, baner3_link]
+          "SEO": [title_seo,keywords,description]
+      new:     ~

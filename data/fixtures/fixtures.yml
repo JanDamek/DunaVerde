@@ -1,0 +1,278 @@
+Gallery:
+  Gallery_1:
+    title: 'Testovacei galerie'
+    description: Popis
+    path: /uploads//duna_verde_mesto3.jpg
+    is_active: false
+    created_at: '2012-01-25 01:29:16'
+    updated_at: '2012-01-25 01:35:20'
+    slug: testovacei-galerie
+  Gallery_2:
+    title: Duna_Verde
+    description: ''
+    path: /uploads//duna-verde/fotogalerie/duna_mesto1.jpg
+    is_active: false
+    created_at: '2012-02-26 19:54:01'
+    updated_at: '2012-02-26 19:54:01'
+    slug: duna-verde
+GalleryImage:
+  GalleryImage_1:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//p201211_20-26_-01.jpg
+    alt: 'nejake foto'
+    title: ''
+    ord: null
+    created_at: '2012-01-25 01:29:16'
+    updated_at: '2012-01-25 01:29:16'
+  GalleryImage_2:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//p201211_20-26_-01.jpg
+    alt: 'druhe img'
+    title: ''
+    ord: null
+    created_at: '2012-01-25 01:29:27'
+    updated_at: '2012-01-25 01:29:27'
+  GalleryImage_3:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//duna_verde_mesto2.jpg
+    alt: 'mesto 2'
+    title: ''
+    ord: null
+    created_at: '2012-01-25 01:30:11'
+    updated_at: '2012-01-25 01:30:11'
+  GalleryImage_4:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//duna_verde_mesto2.jpg
+    alt: 'mesto 2'
+    title: ''
+    ord: null
+    created_at: '2012-01-25 01:35:20'
+    updated_at: '2012-01-25 01:35:20'
+  GalleryImage_5:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//duna_verde_mesto3.jpg
+    alt: 'mesto 3'
+    title: ''
+    ord: null
+    created_at: '2012-01-25 01:35:36'
+    updated_at: '2012-01-25 01:35:36'
+  GalleryImage_6:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/caorle.jpg
+    alt: 'Nedaleké Caorle'
+    title: 'Nedaleké Caorle'
+    ord: null
+    created_at: '2012-02-26 19:54:01'
+    updated_at: '2012-02-26 19:54:01'
+  GalleryImage_7:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/caorle_centrum.jpg
+    alt: 'Centrum Caorle'
+    title: 'Centrum Caorle'
+    ord: null
+    created_at: '2012-02-26 19:54:48'
+    updated_at: '2012-02-26 19:54:48'
+  GalleryImage_8:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/cometa_hlavni.jpg
+    alt: 'Rezidence Cometa - Duna Verde'
+    title: 'Rezidence Cometa - Duna Verde'
+    ord: null
+    created_at: '2012-02-26 19:55:23'
+    updated_at: '2012-02-26 19:55:23'
+  GalleryImage_9:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/caorle.jpg
+    alt: 'nedaleké Caorle'
+    title: 'nedaleké Caorle'
+    ord: null
+    created_at: '2012-02-26 19:56:25'
+    updated_at: '2012-02-26 19:56:25'
+  GalleryImage_10:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/cristallo_hlavni.jpg
+    alt: 'Rezidence Cristallo - Duna Verde'
+    title: 'Rezidence Cristallo - Duna Verde'
+    ord: null
+    created_at: '2012-02-26 19:57:01'
+    updated_at: '2012-02-26 19:57:01'
+  GalleryImage_11:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/duna_mesto1.jpg
+    alt: 'letecký pohled na Duna Verde'
+    title: 'letecký pohled na Duna Verde'
+    ord: null
+    created_at: '2012-02-26 19:57:53'
+    updated_at: '2012-02-26 19:57:53'
+  GalleryImage_12:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/duna_mesto2.jpg
+    alt: 'letecký pohled na Duna Verde'
+    title: 'letecký pohled na Duna Verde'
+    ord: null
+    created_at: '2012-02-26 19:58:17'
+    updated_at: '2012-02-26 19:58:17'
+  GalleryImage_13:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/duna_mesto3.jpg
+    alt: 'letecký pohled na Duna Verde'
+    title: 'letecký pohled na Duna Verde'
+    ord: null
+    created_at: '2012-02-26 19:58:31'
+    updated_at: '2012-02-26 19:58:31'
+  GalleryImage_14:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/elite_hlavni.jpg
+    alt: 'Villaggio Elite - Duna Verde'
+    title: 'Villaggio Elite - Duna Verde'
+    ord: null
+    created_at: '2012-02-26 19:59:27'
+    updated_at: '2012-02-26 19:59:27'
+  GalleryImage_15:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/eraclea_mare.jpg
+    alt: 'nedaleká Eraclea Mare'
+    title: 'nedaleká Eraclea Mare'
+    ord: null
+    created_at: '2012-02-26 20:02:53'
+    updated_at: '2012-02-26 20:02:53'
+  GalleryImage_16:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/rezidence_acapulco_hlavni.jpg
+    alt: 'Rezidence Acapulco - Duna Verde'
+    title: 'Rezidence Acapulco - Duna Verde'
+    ord: null
+    created_at: '2012-02-26 20:03:20'
+    updated_at: '2012-02-26 20:03:20'
+  GalleryImage_17:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//duna-verde/fotogalerie/rezidence_mare_hlavni.jpg
+    alt: 'Rezidence Mare - Duna Verde'
+    title: 'Rezidence Mare - Duna Verde'
+    ord: null
+    created_at: '2012-02-26 20:03:44'
+    updated_at: '2012-02-26 20:03:44'
+Stranka:
+  Stranka_1:
+    name: 'Duna Verde'
+    link_h1: 'http://www.caitalia.cz'
+    title_seo: 'Duna Verde'
+    keywords: 'duna verde, apartmány duna verde, ubytování duna verde, dovolená duna verde'
+    description: 'Stránka věnovaná severoitalskému letovisku Duna Verde.'
+    title_str: 'O Duna Verde'
+    top_img: /uploads//duna-verde/top_foto/top_foto_duna_verde.jpg
+    top_img_title: 'Duna Verde - letecký pohled'
+    top_img_alt: 'Duna Verde - letecký snímek'
+    popis_levy: '<p>Duna Verde je jedním ze severoitalských letovisek na pobřeží Jaderského moře na takzvané Benátské rivieře. Administrativně spadá pod nedaleké Caorle, které je vzdáleno zhruba 10 kilometrů. Jedná se o jedno z nejmenších a nejmladších letovisek v této oblasti. Jeho výstavba začala na přelomu 60. a 70. let minulého století.  Obecně je Duna Verde považována za velmi klidnou destinaci, ideální pro klidnou dovolenou s menšími dětmi. Již od prvopočátku bylo toto letovisko budováno právě jako protiváha rušnějším a větším letoviskům jako je Lido di Jesolo, Caorle či Lignano.</p>'
+    popis_pravy: "<p>Stavba letoviska na „zelené louce“ také umožnila promyšlenou koncepci infrastruktury, díky čemuž je centrální část městečka obepnuta silnicí a chodníky ve tvaru kruhu. Tak jako všechna městečka v této oblasti, i Duna Verde může nabídnout rozlehlou a udržovanou písčitou pláž s pozvolným vstupem do moře. Pro ubytování jsou v letovisku k dispozici především kpacity apartmánového typu. Velice často se jedná o rezidenční komplexy či vilky s bazénem a prostornou zahradou, kterou ocení především děti.</p>\r\n<p>Dovolenou v Duna Verde si užijí především ti, kteří hledají klidnou dovolenou pro odpočinek a nebo rodiny s menšími dětmi.</p>"
+    region: Veneto
+    vzdalenost: '795'
+    img1: /uploads/duna-verde/fotogalerie/miniatury/miniatura_hp1.jpg
+    img1_title: 'Duna Verde - letecký snímek'
+    img1_alt: 'Duna Verde - letecký snímek'
+    img2: /uploads//duna-verde/fotogalerie/miniatury/miniatura_hp2.jpg
+    img2_title: 'Duna Verde - letecký snímek'
+    img2_alt: 'Duna Verde - letecký snímek'
+    img3: /uploads//duna-verde/fotogalerie/miniatury/miniatura_hp3.jpg
+    img3_title: 'Caorle - centrum'
+    img3_alt: 'Caorle - centrum'
+    img4: /uploads/duna-verde/fotogalerie/miniatury/miniatura_hp4.jpg
+    img4_title: Caorle
+    img4_alt: Caorle
+    promo1_title: 'Rezidence Acapulco'
+    promo1_img: /uploads/duna-verde/zajezdy/rezidence_acapulco_hlavni.jpg
+    promo1_img_title: 'Rezidence Acapulco, Duna Verde - apartmány Duna Verde, Itálie'
+    promo1_img_alt: 'Apartmány Duna Verde, Itálie 2012'
+    Gallery1: Gallery_2
+    promo1_star: null
+    promo1_popis: '<p>Moderní rezidenční komplex se zahradou a velkým bazénem. Pouhých 30 metrů od pláže. Velmi klidná oblast obklopena zelení. Obsazenost až 4 osoby.</p>'
+    promo1_cena: '5 900 Kč/apartmán'
+    promo1_link: 'http://www.caitalia.cz/zajezd/rezidence-acapulco.html'
+    promo2_title: 'Rezidence Mare'
+    promo2_img: /uploads//duna-verde/zajezdy/rezidence_mare_hlavni.jpg
+    promo2_img_title: 'Rezidence Mare, Duna Verde, Itálie'
+    promo2_img_alt: 'Rezidence Mare, apartmány Duna Verde'
+    Gallery2: Gallery_2
+    promo2_star: null
+    promo2_popis: '<p>Rozlehlý apartmánový komplex s bazénem a společnou zahradou vzdálený pouhých 50 metrů od pláže. Velmi klidná oblast. Obsazenost až 6 osob.</p>'
+    promo2_cena: '6 900 Kč/apartmán'
+    promo2_link: 'http://www.caitalia.cz/zajezd/rezidence-mare.html'
+    promo3_title: 'Rezidence Palomar'
+    promo3_img: /uploads//duna-verde/zajezdy/palomar_hlavni.jpg
+    promo3_img_title: 'Rezidence Palomar, Duna Verde, Itálie'
+    promo3_img_alt: 'Rezidence Palomar, apartmány Duna Verde'
+    Gallery3: Gallery_2
+    promo3_star: null
+    promo3_popis: '<p>Pěkný dvoupatrový apartmánový diisponující dvěma bazény ve společné zahradě. Privátní parkovací místo. Obsazenost až 5 osob.</p>'
+    promo3_cena: '7 650 Kč/apartmán'
+    promo3_link: 'http://www.caitalia.cz/zajezd/rezidence-palomar.html'
+    promo4_title: 'Villaggio Las Quevas'
+    promo4_img: /uploads//duna-verde/zajezdy/las_quevas_hlavni.jpg
+    promo4_img_title: 'Villaggio Las Quevas, Duna Verde, Itálie'
+    promo4_img_alt: 'Villaggio Las Quevas, apartmány Duna Verde'
+    Gallery4: Gallery_2
+    promo4_star: null
+    promo4_popis: '<p>Velmi pěkný vilový komplex v klidné oblasti Duna Verde. Společná zahrada s bazénem s rozdílnou hloubkou. Maximální obsazenost 8 osob.</p>'
+    promo4_cena: '9 690 Kč/apartmán'
+    promo4_link: 'http://www.caitalia.cz/zajezd/villaggio-las-quevas.html'
+    baner1_img: /uploads//bannery/banner_bus.jpg
+    baner1_img_title: 'Autobusová doprava do Duna Verde'
+    baner1_img_alt: 'Autobusová doprava do Duna Verde'
+    baner1_link: 'http://www.caitalia.cz/doprava/autobusem.html'
+    baner2_img: ''
+    baner2_img_title: ''
+    baner2_img_alt: ''
+    baner2_link: ''
+    baner3_img: /uploads//bannery/kurzy_italstiny.jpg
+    baner3_img_title: 'Kurzy italštiny Praha - Societa Dante Alighieri'
+    baner3_img_alt: 'Kurzy italštiny Praha - Societa Dante Alighieri'
+    baner3_link: http://www.dantepraga.cz
+    created_at: '2012-01-25 01:18:35'
+    updated_at: '2012-02-28 11:38:00'
+    slug: homepage
+Setting:
+  Setting_1:
+    SiteName: DunaVerde
+    email: ''
+    tel: ''
+    mobil: ''
+    pracovni_doba: ''
+    ulice: ''
+    mesto: ''
+    web_adr: ''
+    ga_code: ''
+    google_overeni: ''
+    created_at: '2012-01-25 01:23:47'
+    updated_at: '2012-01-25 01:23:47'
+Odkazy:
+  Odkazy_1:
+    poradi: null
+    name: ''
+    link: ''
+    publikovat: false
+    created_at: '2012-02-04 22:16:24'
+    updated_at: '2012-02-26 17:11:12'
+  Odkazy_2:
+    poradi: '2'
+    name: 'Senza dubbio'
+    link: 'http://www.senzadubbio.cz'
+    publikovat: true
+    created_at: '2012-02-04 22:26:49'
+    updated_at: '2012-02-26 17:11:40'
